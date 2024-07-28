@@ -1,0 +1,24 @@
+<APIProxy revision="48" name="jayasri-calculator">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1695642410821</CreatedAt>
+    <LastModifiedAt>1695642410821</LastModifiedAt>
+    <BasePaths>/jayasri-calculator</BasePaths>
+    <Policies>
+        <Policy>EV-extractNumbers</Policy>
+        <Policy>AM-prepareSoapAddrequest</Policy>
+        <Policy>XtoJ-transformXmltoJson</Policy>
+        <Policy>EV-getResult</Policy>
+        <Policy>AM-setTargetpath</Policy>
+        <Policy>AM-setTargetPath</Policy>
+        <Policy>AM-prepareSoapSubtractrequest</Policy>
+        <Policy>AM-prepareSoapMultiplyrequest</Policy>
+        <Policy>AM-SoapDivisionrequest</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
